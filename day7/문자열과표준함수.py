@@ -48,3 +48,25 @@ print(banana.count("a"))
 
 replace_text = "I like dog"
 print(replace_text.replace("like","love"))
+
+split_text = "apple,banan,grape"
+print(split_text.split(","))
+
+words = ['apple','dog','cat']
+print(", ".join(words))
+
+startswith_text = "start swith"
+print(startswith_text.startswith("start"))
+print(startswith_text.startswith("swith"))
+
+print(startswith_text.endswith("start"))
+print(startswith_text.endswith("swith"))
+
+isdigit_text = "12345abc"
+print(isdigit_text.isdigit())
+
+isalpha_text = "Python3"
+print(isalpha_text.isalpha())
+
+len_text = "eunji"
+print(len(len_text))
